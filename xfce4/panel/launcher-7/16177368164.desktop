@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Galculator
+Comment=Calculator
+Exec=galculator
+Icon=galculator
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true
+X-XFCE-Source=file:///usr/share/applications/galculator.desktop
+Path=

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Lightcord
+Comment=3rd-party Discord client
+Exec=/usr/bin/lightcord
+Icon=lightcord
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;P2P;
+X-XFCE-Source=file:///usr/share/applications/Lightcord.desktop
+Path=
+StartupNotify=false
