@@ -22,6 +22,8 @@ nitrogen --restore &
 pulseaudio &
 xcompmgr &
 polkit-gnome &
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+qbittorrent &
 
 #xfce4-session won't launch. (files in /usr/bin/)
 #xfconfd &
