@@ -24,6 +24,7 @@ xcompmgr &
 polkit-gnome &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 qbittorrent &
+xinput set-prop 10 320 -0.6 &
 
 #xfce4-session won't launch. (files in /usr/bin/)
 #xfconfd &
