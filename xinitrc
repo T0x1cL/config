@@ -51,5 +51,6 @@ fi
 redshift &
 xcompmgr &
 nm-applet &
+conky &
 icewmbg --image=/root/config/geolanes.png &
 exec icewm-session
