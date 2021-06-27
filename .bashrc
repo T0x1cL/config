@@ -17,3 +17,6 @@ DEVKITPRO=/opt/devkitpro
 DEVKITARM=/opt/devkitpro/devkitARM
 DEVKITPPC=/opt/devkitpro/devkitPPC
 alias pipes.sh="pipes.sh -p 3 -f 80 -r 10000"
+alias adblist="adb shell pm list packages"
+alias adbadd="adb install"
+alias adbdel="adb uninstall"
