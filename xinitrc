@@ -52,5 +52,6 @@ redshift &
 xcompmgr &
 nm-applet &
 conky &
+pulseaudio &
 icewmbg --image=/root/config/geolanes.png &
 exec icewm-session
