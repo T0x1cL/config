@@ -12,7 +12,7 @@
        focus cycling popup, or the desktop switch popup.  It can be an index
        from 1, specifying a particular monitor.  Or it can be one of the
        following: 'Mouse' - where the mouse is, or
-                  'Active' - where the active window is --></placement><theme><name>Shades-of-gray-Arch</name><titleLayout>NLIMC</titleLayout><!--
+                  'Active' - where the active window is --></placement><theme><name>Numix</name><titleLayout>NLIMC</titleLayout><!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
       L: window label (AKA title).
