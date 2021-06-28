@@ -1,0 +1,10 @@
+polkit-gnome (directory): gnome polkit, symlink to /usr/lib/
+geolanes.png: background image and shit
+wpa_supplicant.conf:
+symlink to /etc/wpa_supplicant
+run wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+dhcpcd (or any other DHCP client, like udhcpc ("udhcpc -i wlan0"))
+*remember to bring up wlan0 by running ip link set wlan0 up, and see if it's rfkill'd
+xinitrc: symlink to /etc/X11/xinit/xinitrc
+login.sh: symlink to /etc/profile.d/
+pkgs: install by doing "sudo pacman -S - < pkgs" while in same dir as file
