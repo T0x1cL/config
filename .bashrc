@@ -21,3 +21,4 @@ alias adblist="adb shell pm list packages"
 alias adbadd="adb install"
 alias adbdel="adb uninstall"
 : undercover && export PS1='C:${PWD//\//\\\}> '
+: undercover && export PS1='C:${PWD//\//\\\}> '
