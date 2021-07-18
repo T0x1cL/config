@@ -20,5 +20,3 @@ alias pipes.sh="pipes.sh -p 3 -f 80 -r 10000"
 alias adblist="adb shell pm list packages"
 alias adbadd="adb install"
 alias adbdel="adb uninstall"
-: undercover && export PS1='C:${PWD//\//\\\}> '
-: undercover && export PS1='C:${PWD//\//\\\}> '

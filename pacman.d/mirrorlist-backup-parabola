@@ -1,0 +1,67 @@
+# Parabola GNU/Linux-libre Mirrorlist - Last Updated: 2021-02-25
+
+## World-wide ##
+# Note: This is not itself a mirror, but a load-balancing redirector,
+#       which redirects requests to a random Parabola mirror.
+#       This is the most reliable and recommended configuration.
+#       All mirrors are not expected to be exactly in sync at all times;
+#       so multiple duplicate entries, as below, helps to recover from 404s.
+#       A speed boost can be obtained, by copying the 'Server' line
+#       of a nearby mirror below, to above these, deleting the leading '#';
+#       but it is most reliable to keep these enabled always.
+Server = https://redirector.parabola.nu/$repo/os/$arch
+Server = https://redirector.parabola.nu/$repo/os/$arch
+Server = https://redirector.parabola.nu/$repo/os/$arch
+Server = https://redirector.parabola.nu/$repo/os/$arch
+Server = https://redirector.parabola.nu/$repo/os/$arch
+
+## Denmark ##
+#Server = ftp://mirrors.dotsrc.org/parabola/$repo/os/$arch
+#Server = http://mirrors.dotsrc.org/parabola/$repo/os/$arch
+#Server = https://mirrors.dotsrc.org/parabola/$repo/os/$arch
+
+## France ##
+#Server = http://mirror.cyberbits.eu/parabola/$repo/os/$arch
+#Server = https://mirror.cyberbits.eu/parabola/$repo/os/$arch
+
+## Germany ##
+#Server = http://mirror.grapentin.org/parabola/$repo/os/$arch
+#Server = https://mirror.grapentin.org/parabola/$repo/os/$arch
+
+## Hungary ##
+#Server = http://quantum-mirror.hu/mirrors/pub/parabola/$repo/os/$arch
+#Server = https://quantum-mirror.hu/mirrors/pub/parabola/$repo/os/$arch
+
+## Massachusettes ##
+#Server = http://mirror.fsf.org/parabola/$repo/os/$arch
+#Server = https://mirror.fsf.org/parabola/$repo/os/$arch
+
+## Netherlands ##
+#Server = http://parabola.isacdaavid.info/$repo/os/$arch
+#Server = https://parabola.isacdaavid.info/$repo/os/$arch
+#Server = https://parabola.jeweet.net/$repo/os/$arch
+#Server = http://mirror.easylee.nl/parabola/$repo/os/$arch
+#Server = https://mirror.easylee.nl/parabola/$repo/os/$arch
+
+## Ontario ##
+#Server = http://mirror.csclub.uwaterloo.ca/parabola/$repo/os/$arch
+#Server = https://mirror.csclub.uwaterloo.ca/parabola/$repo/os/$arch
+
+## Russia ##
+#Server = http://mirror.yandex.ru/mirrors/parabola/$repo/os/$arch
+#Server = https://mirror.yandex.ru/mirrors/parabola/$repo/os/$arch
+
+## Spain ##
+#Server = https://mirror.cloroformo.org/parabola/$repo/os/$arch
+
+## Sweden ##
+#Server = http://ftpmirror1.infania.net/parabola/$repo/os/$arch
+#Server = https://ftpmirror1.infania.net/parabola/$repo/os/$arch
+#Server = http://mirror.linux.pizza/parabola/$repo/os/$arch
+#Server = https://mirror.linux.pizza/parabola/$repo/os/$arch
+#Server = http://ftp.acc.umu.se/mirror/parabola.nu/$repo/os/$arch
+#Server = https://ftp.acc.umu.se/mirror/parabola.nu/$repo/os/$arch
+
+## Vietnam ##
+#Server = http://mirror.freedif.org/Parabola/$repo/os/$arch
+#Server = https://mirror.freedif.org/Parabola/$repo/os/$arch
