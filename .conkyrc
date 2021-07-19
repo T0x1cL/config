@@ -102,7 +102,7 @@ if_up_strictness address
 uppercase no
 
 TEXT
-${alignc}btw I use Arch
+${alignc}btw I use arch derivs
 ${alignc}${exec uname -sr}
 ${alignc}${color8}${font Ubuntu Mono:size=12}${time %H:%M:%S} ${font} ${color}
 ${alignc}${time %a %d %b}
