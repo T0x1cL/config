@@ -24,7 +24,7 @@ use_xft yes
 # Xft font when Xft is enabled
 #xftfont gentium:size=12
 #xftfont DejaVu Sans:size=10
-xftfont Ubuntu:bold:size=9
+xftfont W95FA:bold:size=9
 #xftfont DejaVu Sans:size=9
 
 # Create own window instead of using desktop (required in nautilus, pcmanfm and rox desktops)
