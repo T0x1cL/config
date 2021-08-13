@@ -22,5 +22,4 @@ else
 fi
 ln -srf ./.bashrc ~
 ln -srf ./.conkyrc ~
-sudo ln -srf I.MingCP-7.01.ttf W95FA.otf /usr/share/fonts &&
-echo "run sudo fc-cache -fv to reload font cache because this script can't fucking do it"
+sudo pacman -S - < fonts

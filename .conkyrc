@@ -24,7 +24,7 @@ use_xft yes
 # Xft font when Xft is enabled
 #xftfont gentium:size=12
 #xftfont DejaVu Sans:size=10
-xftfont W95FA:bold:size=9
+xftfont W95FA:size=10
 #xftfont DejaVu Sans:size=9
 
 # Create own window instead of using desktop (required in nautilus, pcmanfm and rox desktops)
@@ -104,7 +104,7 @@ uppercase no
 TEXT
 ${alignc}btw I use arch derivs
 ${alignc}${exec uname -sr}
-${alignc}${color8}${font Ubuntu Mono:size=12}${time %H:%M:%S} ${font} ${color}
+${alignc}${color8}${font W95FA:size=12}${time %H:%M:%S} ${font} ${color}
 ${alignc}${time %a %d %b}
 ${alignc}Uptime: $uptime
 ${alignc}${exec disp=${DISPLAY#:}; disp=${disp%.[0-9]}; cat $HOME/.desktop-session/desktop-code.$disp 2>/dev/null}
