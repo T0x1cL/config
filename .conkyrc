@@ -102,7 +102,7 @@ if_up_strictness address
 uppercase no
 
 TEXT
-${alignc}btw I use arch derivs
+${alignc}${exec lsb_release -a | grep Description}
 ${alignc}${exec uname -sr}
 ${alignc}${color8}${font W95FA:size=12}${time %H:%M:%S} ${font} ${color}
 ${alignc}${time %a %d %b}
