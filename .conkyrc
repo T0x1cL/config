@@ -33,6 +33,7 @@ conky.config = {
     own_window_argb_visual = true,
     own_window_argb_value = 145,
     --own_window_argb_value: 0=transparent,255=opaque
+    own_window_hints = 'below',
     own_window_type = 'desktop',
     show_graph_range = false,
     show_graph_scale = false,
