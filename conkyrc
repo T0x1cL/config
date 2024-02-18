@@ -18,7 +18,7 @@ conky.config = {
     draw_shades = false,
     extra_newline = false,
     
-    font = 'Ubuntu Mono:size=10',
+    font = 'Ubuntu Mono:size=11',
     gap_x = 20,
     gap_y = 40,
     minimum_height = 5,
@@ -70,7 +70,6 @@ wlan0 down: $alignr ${downspeed wlan0}
 ${alignr}${color8}Used / Total ${color}
 RAM:${alignr}$mem / $memmax
 Swap:${alignr}$swap / $swapmax
-Disk:${alignr}${fs_used /} / ${fs_size /}
-
-Battery: ${battery_percent}% ${alignr}${color8}${battery_bar 8,70}
+Root:${alignr}${fs_used /} / ${fs_size /}
+Home:${alignr}${fs_used /home} / ${fs_size /home}
 ]]
